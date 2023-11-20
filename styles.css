@@ -11,16 +11,16 @@ header{
     background-position: center; 
     color: #fff;
 }
-body{
+/* body{
     font-size: 18px;
-}
+} */
 p{
     font-family: 'Barlow', sans-serif;
-    line-height: 1.7;
-    font-size: 1.3rem;
+    line-height: 2;
+    font-size: 12px;
 }
 h1{
-  font-size: 2rem;  
+  font-size: 18px;  
   margin: 0 0 10px 0;
   font-family: 'Fraunces', serif;
 }
@@ -30,7 +30,7 @@ nav{
     padding: 30px 20px;
 }
 nav>h1{
-  font-size: 1.3rem;  
+  font-size: 18px;  
 }
 #nav-items{
     display: none;
@@ -83,7 +83,7 @@ section{
 
 #testimonial-container h1{
     letter-spacing: 5px;
-    font-size: 1.3rem;
+    font-size: 18px;
     color:hsl(232, 10%, 55%);
 }
 #testimonial section{
@@ -91,11 +91,12 @@ section{
     padding: 0 30px;
 }
 #testimonial h1{
-    font-size: 2rem;
+    font-size: 14px;
     color: #000;
 }
 #testimonial h1,#testimonial p{
     margin: 30px 0;
+    font-size: 18px;
 }
 #testimonial p{
     color: hsl(210, 4%, 67%) ;
@@ -215,12 +216,12 @@ align-content: space-evenly;
 .mobile-menu li{
     list-style: none;
     margin: 40px 0;
-    font-size: 1.5rem;
+    font-size: 14px;
     color:hsl(232, 10%, 55%);
 }
 .mobile-menu  button{
     padding: 20px 60px;
-    font-size: 1.3rem;
+    font-size: 14px;
     border-radius: 10px;
     border: none;
     background-color: hsl(51, 100%, 49%);
@@ -238,14 +239,14 @@ header{
 }
 p{
 
-    font-size: 1.3rem;
+    font-size: 18px;
     
 }
 nav>h1{
-  font-size: 2rem;  
+  font-size: 28px;  
 }
 nav li{
-    font-size: 1.4rem;
+    font-size: 18px;
 }
 
 .sunny-offers-text  p, #testimonial p{
@@ -255,7 +256,7 @@ nav li{
    color: hsl(232, 10%, 55%)
 }
 h1{
-  font-size:2.5rem;  
+  font-size:28px;  
 
 }
 header section{
@@ -374,10 +375,10 @@ padding: 0;
         top: 50%;
     }
     p{
-        font-size: 1rem;
+        font-size: 12px;
     }
-    h1{
-       font-size:  1.4rem;
+    h1,#testimonial h1{
+       font-size: 14px;
     }
   }
   @media only screen and (width:768px){
